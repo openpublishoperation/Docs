@@ -7,9 +7,9 @@
         ],
         "exclude": [
           "**/obj/**",
-          "aspnet/**",
           "**/includes/**",
-          "**/aspnet-core-conceptual/**"
+          "**/bin/**",
+          "_site/**"
         ]
       }
     ],
@@ -21,8 +21,9 @@
         ],
         "exclude": [
           "**/obj/**",
-          "aspnet/core/**",
-          "**/includes/**"
+          "**/includes/**",
+          "**/bin/**",
+          "_site/**"
         ]
       }
     ],
@@ -31,6 +32,6 @@
     "globalMetadata": {},
     "fileMetadata": {},
     "template": [],
-    "dest": "aspnet/core"
+    "dest": "aspnet"
   }
 }
